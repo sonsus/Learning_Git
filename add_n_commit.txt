@@ -1,0 +1,10 @@
+http://stackoverflow.com/questions/4298960/git-add-a-git-commit-in-one-command
+
+git add options?
+
+
+git commit options?
+
+
+
+git add . && commit -m "message I want for the commit"

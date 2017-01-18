@@ -1,0 +1,7 @@
+#exporting_local_to_remote
+
+git init 
+git add (directory name you want) (file2) (file3)      // just separated with whitespace
+git commit -m "(message I want)"
+git remote add (shorthand_name:target) (remote repository address)
+git push (shorthand_name:target) (branchname_I_want or master)

@@ -1,0 +1,32 @@
+git branch: Lists all a Git project's branches.
+git branch (branch_name): Creates a new branch.
+git checkout (branch_name): Used to switch from one branch to another.
+git merge (branch_name): Used to join file changes from one branch to another.
+git branch -d (branch_name): Deletes the branch specified.
+
+git branch --merged
+: already merged branches appears
+
+git branch --no-merged
+: branches that has unmerged commits appear
+
+
+
+
+
+git-merge conflicts
+
+$git merge (branch_name)
+output: CONFLICT (...lost the message)
+
+1. check the file and then recognize that there is conflict area
+
+<<<<<<<<<< HEAD
+(contents from receiver branch)
+=======================
+(contents from giver branch)
+>>>>>>>>>>> (branch_name)
+
+2. remove the conflict markings (<<<<<<<<, ============, >>>>>>>>>>)
+3. save
+4. add and commit

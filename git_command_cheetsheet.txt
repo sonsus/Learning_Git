@@ -1,0 +1,19 @@
+Scripting tip:
+perl -pi -e 's/abc/XYZ/g' /tmp/file.txt
+==change all 'abc' appearing in the file.txt to 'XYZ'
+
+
+GIT_commands_cheatsheet
+
+
+git add .
+git add -A
+git add -u
+
+git commit -m " message I want "
+
+git show HEAD
+git diff
+git checkout HEAD filename.txt                (discard the last vesi)
+
+git reset HEAD filename.txt                   (un-add the file that is mistakenly added to the stage)
