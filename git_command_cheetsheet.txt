@@ -5,6 +5,12 @@ perl -pi -e 's/abc/XYZ/g' /tmp/file.txt
 
 GIT_commands_cheatsheet
 
+for local:
+git reset HEAD~1 --> set local head into just-beforehand state, leaving its history
+git revert HEAD 
+--> for remote branch. do exactly reverse functioning of the before and commit.
+--> in this way you can easily "revert" mistakes without messing around fast-forward style
+
 
 git add .
 git add -A
