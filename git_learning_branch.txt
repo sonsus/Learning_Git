@@ -1,0 +1,3 @@
+now time to learn rebase thing 0628
+
+http://learnbranch.urigit.com/
